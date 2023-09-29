@@ -1,7 +1,3 @@
-
-> medium-to-markdown@0.0.3 convert
-> node index.js https://medium.com/@nsau/creating-a-dynamically-updating-xrp-ledger-monitor-with-turbo-flask-3f7fc308dab8
-
 Creating a dynamically updating XRP Ledger monitor with Turbo Flask
 ===================================================================
 
