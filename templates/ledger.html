@@ -1,0 +1,10 @@
+<p>
+    <div id="ledger" class="ledger">
+        <table>
+          <tr><th>Close Time: </th><td>{{ close_time_human }}</td></tr>
+          <tr><th>Ledger Hash: </th><td>{{ ledger_hash }}</td></tr>
+          <tr><th>Ledger Index: </th><td><a href="//testnet.xrpl.org/ledgers/{{ ledger_index }}" target="_blank">{{ledger_index }}</a></td></tr>
+          <tr><th># of TXs: </th><td>{{ tx_count }}</td></tr>
+        </table>
+    </div>
+</p>

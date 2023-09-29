@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>XRP Ledger + Turbo Flask Demo</title>
+    <style>
+      .ledger {
+        float: left;
+        width: 780px;
+        border: 1px solid black;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      .ledger th, .ledger td {
+        padding: 6px;
+        text-align: left;
+      }
+    </style>
+    {{ turbo() }}
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+    {% include "ledger.html" %}
+  </body>
+</html>
