@@ -192,7 +192,7 @@ Run the Flask (now with Turbo) application:
 
 Open your browser to [http://127.0.0.1:5000](http://127.0.0.1:5000) and watch as the background process dynamically updates information from the XRP Ledger without refreshing the page as shown in this animated gif:
 
-[](https://github.com/nsmithau/xrpl-turbo-flask-demo/blob/main/dynamic_xrpl.gif)
+![](https://github.com/nsmithau/xrpl-turbo-flask-demo/blob/main/dynamic_xrpl.gif)
 
 **References**:
 
